@@ -14,6 +14,10 @@ This project uses [LLMKit](https://www.nuget.org/packages/LLMKit), a thread-safe
 - **Conversation Memory**: Maintains context across interactions
 - **Autonomous Agent**: LLM decides what queries to run and when
 
+The agent provides an interactive console interface:
+
+![MCPAgent Console Interface](Assets/Console.png)
+
 ## Quick Setup
 
 1. **Copy the example configuration:**
@@ -59,9 +63,7 @@ This project uses [LLMKit](https://www.nuget.org/packages/LLMKit), a thread-safe
 
 ## Usage
 
-The agent provides an interactive console interface:
 
-![MCPAgent Console Interface](Assets/Console.png)
 
 ```
 SQL Database Agent Ready!
