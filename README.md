@@ -152,4 +152,6 @@ Never commit your actual `appsettings.json` file to version control - it contain
 
 ## License
 
-This project uses the [LLMKit library](https://www.nuget.org/packages/LLMKit) which is licensed under MIT License.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+This project uses the [LLMKit library](https://www.nuget.org/packages/LLMKit) which is also licensed under MIT License.
