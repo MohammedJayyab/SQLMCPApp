@@ -61,6 +61,8 @@ This project uses [LLMKit](https://www.nuget.org/packages/LLMKit), a thread-safe
 
 The agent provides an interactive console interface:
 
+![MCPAgent Console Interface](Assets/Console.png)
+
 ```
 SQL Database Agent Ready!
 Commands: 'exit' to quit, 'history' to show conversation, 'clear' to clear history

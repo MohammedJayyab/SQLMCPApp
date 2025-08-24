@@ -57,10 +57,10 @@ namespace MCPAgent.MCP
                         currentResponse = continuationResponse;
                         iteration++;
 
-                        Console.WriteLine("Continuation Response with more tool calls found, continuing processing...");
+                        /*Console.WriteLine("Continuation Response with more tool calls found, continuing processing...");
                         Console.ForegroundColor = ConsoleColor.Yellow;
                         Console.WriteLine(continuationResponse);
-                        Console.ResetColor();
+                        Console.ResetColor();*/
 
                         continue;
                     }
@@ -117,9 +117,9 @@ namespace MCPAgent.MCP
                 if (!string.IsNullOrEmpty(sqlQuery))
                 {
                     // Execute the SQL query
-                    Console.ForegroundColor = ConsoleColor.Cyan;
+                    /*Console.ForegroundColor = ConsoleColor.Cyan;
                     Console.WriteLine($"\nExecuting SQL Query:\n{sqlQuery}\n");
-                    Console.ResetColor();
+                    Console.ResetColor();   */
 
                     string queryResult = await ExecuteSQLQuery(sqlQuery);
 
